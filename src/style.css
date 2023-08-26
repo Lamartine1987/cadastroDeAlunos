@@ -1,0 +1,66 @@
+:root{
+    --dark-blue: #363f5f;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(255, 0, 0);
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    padding: 2rem 0 10rem;
+    text-align: center;
+}
+
+#logo{
+    color: aliceblue;
+    font-weight: 100;
+}
+
+section{
+    margin-top: -5rem;
+}
+
+.principal{
+    width: min(90vw, 800px);
+    margin: auto;
+    background: rgb(255, 133, 133);
+    padding: 2.5rem 2rem ;
+    border-radius: 0.25rem;
+    color: var(--dark-blue);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+input{
+    width: 400px;
+    padding: 0.4rem;
+    border-radius: 0.25rem;
+    margin: auto;
+    border: 0.5rem;
+    margin: 15px ;
+}
+
+button{
+    width: 80px;
+    padding: 0.4rem;
+    font-weight: normal;
+    border-radius: 0.25rem;
+    margin: auto;
+    background: rgb(255, 0, 0);
+    color: white;
+    border: 0.5rem;
+    cursor: pointer;
+}
+
+ul{
+    list-style-type: none;
+    color: whitesmoke;
+    font-size: 20px;
+}
